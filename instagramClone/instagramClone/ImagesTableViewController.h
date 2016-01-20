@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImagesTableViewController.h
 //  instagramClone
 //
 //  Created by RandallKanna on 1/17/16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ImagesTableViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *images;
 
 @end
-

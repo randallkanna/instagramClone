@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		06497F911C4CB64100185501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06497F901C4CB64100185501 /* main.m */; };
 		06497F941C4CB64100185501 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06497F931C4CB64100185501 /* AppDelegate.m */; };
-		06497F971C4CB64100185501 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06497F961C4CB64100185501 /* ViewController.m */; };
 		06497F9C1C4CB64100185501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06497F9B1C4CB64100185501 /* Assets.xcassets */; };
 		06497F9F1C4CB64100185501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06497F9D1C4CB64100185501 /* LaunchScreen.storyboard */; };
 		06497FAA1C4CB64100185501 /* instagramCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06497FA91C4CB64100185501 /* instagramCloneTests.m */; };
 		06497FB51C4CB64100185501 /* instagramCloneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06497FB41C4CB64100185501 /* instagramCloneUITests.m */; };
+		06497FE31C4CB9B600185501 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FD91C4CB9B600185501 /* 1.jpg */; };
+		06497FE41C4CB9B600185501 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FDA1C4CB9B600185501 /* 2.jpg */; };
+		06497FE51C4CB9B600185501 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FDB1C4CB9B600185501 /* 3.jpg */; };
+		06497FE61C4CB9B600185501 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FDC1C4CB9B600185501 /* 4.jpg */; };
+		06497FE71C4CB9B600185501 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FDD1C4CB9B600185501 /* 5.jpg */; };
+		06497FE81C4CB9B600185501 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FDE1C4CB9B600185501 /* 6.jpg */; };
+		06497FE91C4CB9B600185501 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FDF1C4CB9B600185501 /* 7.jpg */; };
+		06497FEA1C4CB9B600185501 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FE01C4CB9B600185501 /* 8.jpg */; };
+		06497FEB1C4CB9B600185501 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FE11C4CB9B600185501 /* 9.jpg */; };
+		06497FEC1C4CB9B600185501 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FE21C4CB9B600185501 /* 10.jpg */; };
+		06497FEF1C4CBAF100185501 /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06497FEE1C4CBAF100185501 /* ImagesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +48,6 @@
 		06497F901C4CB64100185501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06497F921C4CB64100185501 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06497F931C4CB64100185501 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		06497F951C4CB64100185501 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		06497F961C4CB64100185501 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		06497F9B1C4CB64100185501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06497F9E1C4CB64100185501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06497FA01C4CB64100185501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,18 @@
 		06497FB01C4CB64100185501 /* instagramCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instagramCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06497FB41C4CB64100185501 /* instagramCloneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instagramCloneUITests.m; sourceTree = "<group>"; };
 		06497FB61C4CB64100185501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06497FD91C4CB9B600185501 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		06497FDA1C4CB9B600185501 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		06497FDB1C4CB9B600185501 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		06497FDC1C4CB9B600185501 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		06497FDD1C4CB9B600185501 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		06497FDE1C4CB9B600185501 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		06497FDF1C4CB9B600185501 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		06497FE01C4CB9B600185501 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		06497FE11C4CB9B600185501 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		06497FE21C4CB9B600185501 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		06497FED1C4CBAF100185501 /* ImagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
+		06497FEE1C4CBAF100185501 /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +119,11 @@
 		06497F8E1C4CB64000185501 /* instagramClone */ = {
 			isa = PBXGroup;
 			children = (
+				06497FD81C4CB94800185501 /* Images */,
 				06497F921C4CB64100185501 /* AppDelegate.h */,
 				06497F931C4CB64100185501 /* AppDelegate.m */,
-				06497F951C4CB64100185501 /* ViewController.h */,
-				06497F961C4CB64100185501 /* ViewController.m */,
+				06497FED1C4CBAF100185501 /* ImagesTableViewController.h */,
+				06497FEE1C4CBAF100185501 /* ImagesTableViewController.m */,
 				06497F9B1C4CB64100185501 /* Assets.xcassets */,
 				06497F9D1C4CB64100185501 /* LaunchScreen.storyboard */,
 				06497FA01C4CB64100185501 /* Info.plist */,
@@ -135,6 +156,23 @@
 				06497FB61C4CB64100185501 /* Info.plist */,
 			);
 			path = instagramCloneUITests;
+			sourceTree = "<group>";
+		};
+		06497FD81C4CB94800185501 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				06497FDB1C4CB9B600185501 /* 3.jpg */,
+				06497FDC1C4CB9B600185501 /* 4.jpg */,
+				06497FDE1C4CB9B600185501 /* 6.jpg */,
+				06497FDD1C4CB9B600185501 /* 5.jpg */,
+				06497FDF1C4CB9B600185501 /* 7.jpg */,
+				06497FE01C4CB9B600185501 /* 8.jpg */,
+				06497FE11C4CB9B600185501 /* 9.jpg */,
+				06497FE21C4CB9B600185501 /* 10.jpg */,
+				06497FDA1C4CB9B600185501 /* 2.jpg */,
+				06497FD91C4CB9B600185501 /* 1.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +278,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06497FEB1C4CB9B600185501 /* 9.jpg in Resources */,
+				06497FEA1C4CB9B600185501 /* 8.jpg in Resources */,
+				06497FE61C4CB9B600185501 /* 4.jpg in Resources */,
+				06497FE51C4CB9B600185501 /* 3.jpg in Resources */,
+				06497FE81C4CB9B600185501 /* 6.jpg in Resources */,
+				06497FE31C4CB9B600185501 /* 1.jpg in Resources */,
 				06497F9F1C4CB64100185501 /* LaunchScreen.storyboard in Resources */,
+				06497FE71C4CB9B600185501 /* 5.jpg in Resources */,
+				06497FE91C4CB9B600185501 /* 7.jpg in Resources */,
+				06497FE41C4CB9B600185501 /* 2.jpg in Resources */,
+				06497FEC1C4CB9B600185501 /* 10.jpg in Resources */,
 				06497F9C1C4CB64100185501 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,9 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06497F971C4CB64100185501 /* ViewController.m in Sources */,
 				06497F941C4CB64100185501 /* AppDelegate.m in Sources */,
 				06497F911C4CB64100185501 /* main.m in Sources */,
+				06497FEF1C4CBAF100185501 /* ImagesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
