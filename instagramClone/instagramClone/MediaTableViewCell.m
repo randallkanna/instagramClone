@@ -86,4 +86,31 @@ static NSParagraphStyle *paragraphStyle;
     return mutableUsernameAndCaptionString;
 }
 
+- (NSAttributedString *) commentString {
+    NSMutableAttributedString *commentString = [[NSMutableAttributedString alloc] init];
+    
+    for (Comment *comment in self.mediaItem.comments) {
+        NSString *baseString = [NSString stringWithFormat:@"%@ %@\n", comment.from.userName, comment.text];
+        
+        NSMutableAttributedString *oneCommentString = [[NSMutableAttributedString alloc] initWithString:baseString attributes:@{NSFontAttributeName : lightFont, NSParagraphStyleAttributeName : paragraphStyle}];
+        
+        NSRange usernameRange = [baseString rangeOfString:comment.from.userName];
+        [oneCommentString addAttribute:NSFontAttributeName value:boldFont range:usernameRange];
+        [oneCommentString addAttribute:NSForegroundColorAttributeName value:linkColor range:usernameRange];
+        [commentString appendAttributedString:oneCommentString];
+    }
+    
+    return commentString;
+}
+
+- (CGSize) sizeOfString:(NSAttributedString * )string {
+    CGSize maxSize = CGSizeMake(CGRectGetWidth(self.contentView.bounds) - 40, 0.0);
+    CGRect sizeRect = [string boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin context:nil];
+    sizeRect.size.height += 20;
+    sizeRect = CGRectIntegral(sizeRect);
+    return sizeRect.size;
+}
+
+
+
 @end
