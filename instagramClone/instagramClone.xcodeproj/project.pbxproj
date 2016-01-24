@@ -24,6 +24,10 @@
 		06497FEB1C4CB9B600185501 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FE11C4CB9B600185501 /* 9.jpg */; };
 		06497FEC1C4CB9B600185501 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06497FE21C4CB9B600185501 /* 10.jpg */; };
 		06497FEF1C4CBAF100185501 /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06497FEE1C4CBAF100185501 /* ImagesTableViewController.m */; };
+		06E572891C548B86002409ED /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E572881C548B86002409ED /* User.m */; };
+		06E5728C1C548BB2002409ED /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E5728B1C548BB2002409ED /* Media.m */; };
+		06E5728F1C548BF5002409ED /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E5728E1C548BF5002409ED /* Comment.m */; };
+		06E572921C548C32002409ED /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E572911C548C32002409ED /* DataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,14 @@
 		06497FE21C4CB9B600185501 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		06497FED1C4CBAF100185501 /* ImagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
 		06497FEE1C4CBAF100185501 /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
+		06E572871C548B86002409ED /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		06E572881C548B86002409ED /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		06E5728A1C548BB2002409ED /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		06E5728B1C548BB2002409ED /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		06E5728D1C548BF5002409ED /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		06E5728E1C548BF5002409ED /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		06E572901C548C32002409ED /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		06E572911C548C32002409ED /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +140,14 @@
 				06497F9D1C4CB64100185501 /* LaunchScreen.storyboard */,
 				06497FA01C4CB64100185501 /* Info.plist */,
 				06497F8F1C4CB64000185501 /* Supporting Files */,
+				06E572871C548B86002409ED /* User.h */,
+				06E5728A1C548BB2002409ED /* Media.h */,
+				06E5728B1C548BB2002409ED /* Media.m */,
+				06E5728D1C548BF5002409ED /* Comment.h */,
+				06E5728E1C548BF5002409ED /* Comment.m */,
+				06E572901C548C32002409ED /* DataSource.h */,
+				06E572911C548C32002409ED /* DataSource.m */,
+				06E572881C548B86002409ED /* User.m */,
 			);
 			path = instagramClone;
 			sourceTree = "<group>";
@@ -314,7 +334,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E572891C548B86002409ED /* User.m in Sources */,
+				06E5728F1C548BF5002409ED /* Comment.m in Sources */,
+				06E5728C1C548BB2002409ED /* Media.m in Sources */,
 				06497F941C4CB64100185501 /* AppDelegate.m in Sources */,
+				06E572921C548C32002409ED /* DataSource.m in Sources */,
 				06497F911C4CB64100185501 /* main.m in Sources */,
 				06497FEF1C4CBAF100185501 /* ImagesTableViewController.m in Sources */,
 			);
@@ -534,6 +558,7 @@
 				06497FBB1C4CB64100185501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06497FBC1C4CB64100185501 /* Build configuration list for PBXNativeTarget "instagramCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +567,7 @@
 				06497FBE1C4CB64100185501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06497FBF1C4CB64100185501 /* Build configuration list for PBXNativeTarget "instagramCloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +576,7 @@
 				06497FC11C4CB64100185501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
