@@ -38,8 +38,15 @@
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [DataSource sharedInstance].mediaItems.count;
+    return [self items].count;
+    //    return [DataSource sharedInstance].mediaItems.count;
+
 }
+
++ (NSArray *)items:(NSArray *)item {
+    return [DataSource sharedInstance].mediaItems;
+}
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"imageCell" forIndexPath:indexPath];
