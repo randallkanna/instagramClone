@@ -133,4 +133,14 @@ static NSParagraphStyle *paragraphStyle;
     self.commentLabel.attributedText = [self commentString];
 }
 
++ (CGFloat) heightForMediaItem:(Media *)mediaItem width:(CGFloat)width {
+    MediaTableViewCell *layoutCell = [[MediaTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"layoutCell"];
+    layoutCell.frame = CGRectMake(0, 0, width, CGFLOAT_MAX);
+    
+    layoutCell.mediaItem = mediaItem;
+    [layoutCell layoutSubviews];
+    
+    return CGRectGetMaxY(layoutCell.commentLabel.frame);
+}
+
 @end
